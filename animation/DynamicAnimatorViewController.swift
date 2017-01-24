@@ -69,6 +69,7 @@ class DynamicAnimatorViewController: UIViewController {
         
         let frame = CGRect(origin: view.center, size: CGSize(width: 100, height: 100))
         let button = UIButton(frame: frame)
+        button.layer.cornerRadius = frame.size.width / 2
         button.setTitle(title, for: .normal)
         button.backgroundColor = color
         
@@ -84,3 +85,27 @@ class DynamicAnimatorViewController: UIViewController {
     }
     
 }
+
+
+
+/*
+ programatically creat item button
+ creat a function to create funciton with color
+ 
+ 
+ create button item A...D , menu
+ 
+ bool -> isOpen
+ toggle menu function
+
+ 
+ introduce dynamicAnimator
+ add "snap" to one button
+ 
+ add to all button.
+ snap back
+ 
+ 
+ 
+ 
+ */
