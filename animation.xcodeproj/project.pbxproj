@@ -12,6 +12,8 @@
 		A1A44B141E3609C500B4F485 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1A44B121E3609C500B4F485 /* Main.storyboard */; };
 		A1A44B161E3609C500B4F485 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1A44B151E3609C500B4F485 /* Assets.xcassets */; };
 		A1A44B191E3609C500B4F485 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1A44B171E3609C500B4F485 /* LaunchScreen.storyboard */; };
+		A1A44B211E36180600B4F485 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A44B201E36180600B4F485 /* RoundedButton.swift */; };
+		A1A44B231E361BC800B4F485 /* DynamicAnimatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A44B221E361BC800B4F485 /* DynamicAnimatorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		A1A44B151E3609C500B4F485 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1A44B181E3609C500B4F485 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1A44B1A1E3609C500B4F485 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1A44B201E36180600B4F485 /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		A1A44B221E361BC800B4F485 /* DynamicAnimatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicAnimatorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				A1A44B0E1E3609C500B4F485 /* AppDelegate.swift */,
+				A1A44B221E361BC800B4F485 /* DynamicAnimatorViewController.swift */,
 				A1A44B101E3609C500B4F485 /* ViewController.swift */,
+				A1A44B201E36180600B4F485 /* RoundedButton.swift */,
 				A1A44B121E3609C500B4F485 /* Main.storyboard */,
 				A1A44B151E3609C500B4F485 /* Assets.xcassets */,
 				A1A44B171E3609C500B4F485 /* LaunchScreen.storyboard */,
@@ -137,6 +143,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1A44B111E3609C500B4F485 /* ViewController.swift in Sources */,
+				A1A44B231E361BC800B4F485 /* DynamicAnimatorViewController.swift in Sources */,
+				A1A44B211E36180600B4F485 /* RoundedButton.swift in Sources */,
 				A1A44B0F1E3609C500B4F485 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
